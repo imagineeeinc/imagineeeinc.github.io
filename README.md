@@ -1,4 +1,4 @@
-<h1>Welcome To <a href="https://github.com/imagineeeinc">Imagineee</a> Official Profile</h1>
+<h1>Welcome To <a href="https://imagineeeinc.github.io/">Imagineee</a> Official Profile</h1>
 
 [YouTube](https://www.youtube.com/channel/UClvGLxFbeFdiDYXnmlpmSTg)
 
