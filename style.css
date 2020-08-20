@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    font-family:  'Space Mono, Arial', monospace;
+    font: monospace;
+    background-image: url(img/back.gif);
+    color: white;
+    padding: 2px;
+}
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-image: url(img/back.gif); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #e8e8e8; 
+    border-radius: 3px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ccd6d9;
+  }
+#head {
+    font-size: 50px;
+}
+#header {
+    background-image: url(img/head_wall.png);
+    background-color: #cccccc;
+    height: 760px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #ffa069;
+
+    margin: -2px;
+    padding: 10px;
+}
+#headcon {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#repos {
+    text-align: center;
+}
+#open {
+    margin: 5px;
+    width: 1.5%;
+}
+#info {
+    background-color: #003280;
+    margin: -2px;
+    position: relative;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: azure;
+    border-radius: 5px;
+    padding: 5px;
+}
+a:hover {
+    text-decoration: underline;
+}
+a > img {
+    text-decoration: none;
+}
