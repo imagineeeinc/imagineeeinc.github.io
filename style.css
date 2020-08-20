@@ -5,6 +5,7 @@ body {
     background-image: url(img/back.gif);
     color: white;
     padding: 2px;
+    overflow-x: hidden;
 }
 ::-webkit-scrollbar {
     width: 6px;
@@ -76,4 +77,13 @@ a:hover {
 }
 a > img {
     text-decoration: none;
+}
+@media only screen and (max-width: 413px) {}
+@media only screen and (max-width: 412px) {
+    #projs > a > img {
+        width: 100%;
+    }
+    #langs {
+        width: 100%;
+    }
 }
