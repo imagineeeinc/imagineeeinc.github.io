@@ -81,7 +81,7 @@ a > img {
 @media only screen and (max-width: 413px) {}
 @media only screen and (max-width: 412px) {
     #projs > a > img {
-        width: 100%;
+        width: 98%;
     }
     #langs {
         width: 100%;
