@@ -64,6 +64,7 @@
         <a href="https://github.com/imagineeeinc?tab=repositories">Check My repositories and other projects</a>
         </div>
         <div id="info">
+            <div id="info-inside">
             <p><img src="icon/user.png" style="width: 80px; border-radius: 75px; border: 2px solid lightgrey;">
                 Hello, </p>
             <p style="margin-left: 90px;">
@@ -84,12 +85,68 @@
             <p style="margin-left: 90px;">
                 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=imagineeeinc&hide=ruby" id="langs">
             </p>
+            </div>
+        </div>
+        <div id="projects">
+            <h1 style="text-align: center;">Projects</h1>
+            <a href="https://imagineeeinc.github.io/Wood-Note/">
+                <div id="proj">
+                    <h2>Wood Note</h2>
+                    <p>A light, simple notpad</p>
+                </div>
+            </a>
+            <a href="https://imagineeeinc.github.io/EtchTerm/">
+                <div id="proj">
+                    <h2>EtchTerm</h2>
+                    <p>Web based terminal</p>
+                </div>
+            </a>
+            <a href="https://imagineeeinc.github.io/pongjs/">
+                <div id="proj">
+                    <h2>Pongjs</h2>
+                    <p>100% JavaScritpt based game Pong and is my first game</p>
+                </div>
+            </a>
+            <a href="https://imagineeeinc.github.io/Table-Chat/">
+                <div id="proj">
+                    <h2>Table Chat</h2>
+                    <p>Node js Chat app</p>
+                </div>
+            </a>
+            <a href="https://imagineeeinc.github.io/Wood-WebBox/">
+                <div id="proj">
+                    <h2>Wood WebBox</h2>
+                    <p>A Html sandbox</p>
+                </div>
+            </a>
+            <a href="https://imagineeeinc.github.io/Wood-ToDo/">
+                <div id="proj">
+                    <h2>Wood ToDo</h2>
+                    <p>A light weight To Do app</p>
+                </div>
+            </a>
+            <a href="https://imagineeeinc.github.io/Wood-Clock/">
+                <div id="proj">
+                    <h2>Wood Clock</h2>
+                    <p>A light Desktop timepice</p>
+                </div>
+            </a>
+            <div style="text-align: center; font-size: 30px; ">
+                <a href="https://github.com/imagineeeinc?tab=repositories">Check out more projects</a>
+            </div>
         </div>
         <footer>
             <p><img src="icon/user.png" style="width: 35px; border-radius: 75px; border: 1px solid lightgrey;"></p>
             <p>©2020</p>
             <a href="https://github.com/imagineeeinc">Imagineee</a>
         </footer>        
+        <script>
+            if('serviceWorker' in navigator) {
+              navigator.serviceWorker
+                       .register('sw.js')
+                       .then(function() { console.log("Service Worker Registered"); });
+            }
+        </script>
         <script src="app.js"></script>
     </body>
 </html>

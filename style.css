@@ -51,6 +51,38 @@ body {
     transform: translate(-50%, -50%);
     color: white;
 }
+#projects {
+    margin: 4px auto;
+    padding: 0 1px;
+    max-width: 60ch;
+    margin-top: 30px;
+}
+#proj {
+    text-align: center;
+    width: 99%;
+    background-color: #f7f7f7;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: left;
+    font-size: 20px;
+    transition-duration: .2s;
+}
+#proj>h2 {
+    color: blue;
+}
+#proj:hover {
+    margin: 20px 0px 10px 0px;
+    padding: 10px 5px 10px 5px;
+    transform: translatey(-10px);
+    box-shadow: 0px 8px 9px lightblue;
+}
+img {
+    transition-duration: .2s;
+}
+img:hover {
+    margin: 10px 0px 10px 0px;
+}
 #repos {
     text-align: center;
     z-index: 1;
@@ -66,18 +98,27 @@ body {
     padding: 10px;
     z-index: 1;
 }
+#info-inside {
+    margin: 4px auto;
+    padding: 0 1px;
+    max-width: 60ch;
+    margin-top: 30px;
+}
 footer {
     text-align: center;
     z-index: 1;
+    background-color: #003280;
 }
 a {
     text-decoration: none;
     color: azure;
     border-radius: 5px;
     padding: 5px;
+    transition-duration: .2s;
 }
 a:hover {
     text-decoration: underline;
+    transform: translatey(-10px);
 }
 a > img {
     text-decoration: none;

@@ -37,7 +37,13 @@
             "src": "Favicon/favicon.ico",
             "type": "image/ico",
             "sizes": "48x48"
-        }
+        },
+        {
+            "src": "Favicon/maskable_icon.png",
+            "sizes": "682x682",
+            "type": "image/png",
+            "purpose": "any maskable"
+          }
     ],
     "url": "",
     "lang": "English",

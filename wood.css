@@ -105,6 +105,12 @@ body {
     font-size: 25px;
     text-align: center;
 }
+img {
+    transition-duration: .2s;
+}
+img:hover {
+    margin: 10px 0px 10px 0px;
+}
 footer {
     text-align: center;
     z-index: 1;
@@ -114,9 +120,11 @@ a {
     color: azure;
     border-radius: 5px;
     padding: 5px;
+    transition-duration: .2s;
 }
 a:hover {
     text-decoration: underline;
+    transform: translatey(-10px);
 }
 a > img {
     text-decoration: none;
