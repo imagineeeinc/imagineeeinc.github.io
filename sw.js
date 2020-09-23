@@ -25,6 +25,7 @@ self.addEventListener('install', function(e) {
        'Favicon/apple-touch-icon.png',
        'Favicon/maskable_icon.png',
        'Favicon/android-chrome-512x512.png',
+       'https://github-readme-stats.vercel.app/api/top-langs/?username=imagineeeinc&hide=ruby'
      ]);
    })
  );
