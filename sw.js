@@ -1,9 +1,9 @@
 importScripts('cache-polyfill.js');
 
 
-self.addEventListener('install', function(e) {
- e.waitUntil(
-   caches.open('airhorner').then(function(cache) {
+/*self.addEventListener('install', function(e) {
+ e.waitUntil(*/
+   caches.open('imagineee').then(function(cache) {
      return cache.addAll([
        '',
        'index.html',
@@ -28,8 +28,8 @@ self.addEventListener('install', function(e) {
        'https://github-readme-stats.vercel.app/api/top-langs/?username=imagineeeinc&hide=ruby'
      ]);
    })
- );
-});
+ /*);
+});*/
 
 self.addEventListener('fetch', function(event) {
     console.log(event.request.url);
