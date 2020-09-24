@@ -1,8 +1,9 @@
 importScripts('cache-polyfill.js');
 
+
 self.addEventListener('install', function(e) {
  e.waitUntil(
-   caches.open('imagineee').then(function(cache) {
+   caches.open('airhorner').then(function(cache) {
      return cache.addAll([
        '',
        'index.html',
@@ -24,7 +25,6 @@ self.addEventListener('install', function(e) {
        'Favicon/apple-touch-icon.png',
        'Favicon/maskable_icon.png',
        'Favicon/android-chrome-512x512.png',
-       'https://github-readme-stats.vercel.app/api/top-langs/?username=imagineeeinc&hide=ruby'
      ]);
    })
  );
