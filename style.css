@@ -109,7 +109,7 @@ footer {
     z-index: 1;
     background-color: #003280;
 }
-a:not(#proj) {
+a:not(#proj, #head) {
     text-decoration: underline;
     color: #039688;
     border-radius: 5px;
