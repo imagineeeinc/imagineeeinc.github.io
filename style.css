@@ -109,9 +109,9 @@ footer {
     z-index: 1;
     background-color: #003280;
 }
-a:not(#proj, #head, #menu) {
-    text-decoration: underline;
-    color: #039688;
+a:not(#proj) {
+    text-decoration: none;
+    color: azure;
     border-radius: 5px;
     padding: 5px;
     transition-duration: .2s;
