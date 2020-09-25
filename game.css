@@ -77,7 +77,7 @@ img:hover {
     margin: 10px 0px 10px 0px;
 }
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: azure;
     border-radius: 5px;
     padding: 5px;
