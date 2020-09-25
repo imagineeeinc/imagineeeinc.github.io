@@ -116,7 +116,7 @@ footer {
     z-index: 1;
 }
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: azure;
     border-radius: 5px;
     padding: 5px;
