@@ -110,7 +110,7 @@ footer {
     background-color: #003280;
 }
 a:not(#proj) {
-    text-decoration: none;
+    text-decoration: underline;
     color: azure;
     border-radius: 5px;
     padding: 5px;
