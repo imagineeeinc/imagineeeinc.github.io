@@ -78,7 +78,7 @@ img:hover {
 }
 a {
     text-decoration: underline;
-    color: azure;
+    color: #039688;
     border-radius: 5px;
     padding: 5px;
     transition-duration: .2s;
