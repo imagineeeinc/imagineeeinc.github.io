@@ -5,26 +5,28 @@ self.addEventListener('install', function(e) {
  e.waitUntil(
    caches.open('imagineee').then(function(cache) {
      return cache.addAll([
-       '',
-       'index.html',
-       'wood.html',
-       'game.html',
-       'style.css',
-       'wood.css',
-       'game.css',
-       'app.js',
-       'manifest.json',
-       'icon/Github.png',
-       'icon/open.png',
-       'icon/so.png',
-       'icon/user.png',
-       'img/back.gif',
-       'img/head_wall.png',
-       'img/mt.jpg',
-       'Favicon/favicon.ico',
-       'Favicon/apple-touch-icon.png',
-       'Favicon/maskable_icon.png',
-       'Favicon/android-chrome-512x512.png',
+      '',
+      'index.html',
+      'wood.html',
+      'game.html',
+      'style.css',
+      'wood.css',
+      'game.css',
+      'app.js',
+      'manifest.json',
+      'icon/Github.png',
+      'icon/open.png',
+      'icon/so.png',
+      'icon/user.png',
+      'img/back.gif',
+      'img/head_wall.png',
+      'img/mt.jpg',
+      'Favicon/favicon.ico',
+      'Favicon/apple-touch-icon.png',
+      'Favicon/maskable_icon.png',
+      'Favicon/android-chrome-512x512.png',
+      'icon/imagineee back.svg',
+      'load.css'
      ]);
    })
  );
@@ -53,6 +55,8 @@ if (navigator.onLine == true) {
       'Favicon/apple-touch-icon.png',
       'Favicon/maskable_icon.png',
       'Favicon/android-chrome-512x512.png',
+      'icon/imagineee back.svg',
+      'load.css'
     ]);
   })
 }

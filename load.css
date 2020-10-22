@@ -1,0 +1,49 @@
+body {
+    overflow-y: scroll;
+    animation-name: move;
+    animation-duration: 3s;
+}
+#load {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    float: left;
+    background-color: rgba(56, 61, 161, 0.9);
+    height: 100%;
+    width: 100vw;
+    color: white;
+    border-radius: 5px;
+    margin: -5px;
+    padding-top: 20px;
+    cursor: none;
+    font-size: 25px;
+    text-align: center;
+    animation-name: transperent;
+    animation-duration: 3s;
+    opacity: 0.0;
+    visibility: hidden;
+}
+#loadico {
+    margin: 4px auto;
+    padding: 0 1px;
+    max-width: 60ch;
+    margin-top: 30px;
+}
+#loadico > img {
+        margin: 4px auto;
+        padding: 0 1px;
+        max-width: 60ch;
+        margin-top: 30px;
+}
+@keyframes transperent {
+    0% {opacity: 1; visibility: visible;}
+    89% {opacity: 1;}
+    90% {opacity: 0.5;}
+    99% {opacity: 0.0;}
+    100% {visibility: hidden;}
+}
+@keyframes move {
+    0% {overflow-y: scroll;}
+    99% {overflow-y: hidden;}
+    100% {overflow-y: scroll;}
+}
