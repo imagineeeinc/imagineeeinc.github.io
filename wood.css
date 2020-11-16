@@ -97,13 +97,18 @@ body {
     width: 1.5%;
 }
 #info {
-    background-color: #003280;
     margin: -2px;
     position: relative;
     padding: 10px;
     z-index: 1;
     font-size: 25px;
     text-align: center;
+}
+#info-inside {
+    margin: 4px auto;
+    padding: 0 1px;
+    max-width: 60ch;
+    margin-top: 30px;
 }
 img {
     transition-duration: .2s;
@@ -183,14 +188,17 @@ a > img {
     #projs > a > img {
         width: 98%;
     }
-    #apps > a > img {
-        width: 95%;
-    }
+    
     #menus {
         width: 100%;
         text-align: center;
     }
     #menu {
         float: right;
+    }
+}
+@media only screen and (max-width: 464px) {
+    #apps > a > img {
+        width: 95%;
     }
 }
