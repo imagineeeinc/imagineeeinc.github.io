@@ -30,7 +30,7 @@ body {
     font-size: 50px;
 }
 #header {
-    background-image: url(img/head_wall.png);
+    background-image: url(img/banner.png);
     background-color: #cccccc;
     height: 760px;
     background-position: center;
@@ -42,6 +42,12 @@ body {
     margin: -2px;
     padding: 10px;
     z-index: 1;
+}
+#links {
+    border-radius: 5px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    overflow: auto;
 }
 #headcon {
     text-align: center;

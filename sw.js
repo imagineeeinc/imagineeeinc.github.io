@@ -26,7 +26,8 @@ self.addEventListener('install', function(e) {
       'Favicon/maskable_icon.png',
       'Favicon/android-chrome-512x512.png',
       'icon/imagineee back.svg',
-      'load.css'
+      'load.css',
+      'img/banner.png'
      ]);
    })
  );
