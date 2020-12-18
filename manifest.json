@@ -4,8 +4,8 @@
     "short_name": "Imagineee",
     "start_url": "index.html",
     "display": "fullscreen",
-    "background_color": "#003280",
-    "theme_color": "#003280",
+    "background_color": "#2f2768",
+    "theme_color": "#45000d",
     "orientation": "any",
     "icons": [
         {
