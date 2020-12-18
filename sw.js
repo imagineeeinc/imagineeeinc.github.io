@@ -10,6 +10,7 @@ self.addEventListener('install', function(e) {
       'wood.html',
       'game.html',
       'github.htm',
+      '404.html',
       'menu.css',
       'style.css',
       'wood.css',
