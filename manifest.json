@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Imagineee Website",
+    "name": "Imagineee",
     "short_name": "Imagineee",
     "start_url": "index.html",
     "display": "fullscreen",

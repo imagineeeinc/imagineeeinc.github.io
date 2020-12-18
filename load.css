@@ -28,12 +28,16 @@ body {
     padding: 0 1px;
     max-width: 60ch;
     margin-top: 30px;
+    border: 5px solid transparent;
+    border-top: 16px double #2f2768;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 0.5s linear infinite;
 }
-#loadico > img {
-        margin: 4px auto;
-        padding: 0 1px;
-        max-width: 60ch;
-        margin-top: 30px;
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 @keyframes transperent {
     0% {opacity: 1; visibility: visible;}
