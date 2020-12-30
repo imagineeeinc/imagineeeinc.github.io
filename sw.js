@@ -33,7 +33,8 @@ self.addEventListener('install', function(e) {
       'img/logo/banner.png',
       'https://imagineeeinc.github.io/api/cdn/font/ibmplex/mono/font.css',
       'https://imagineeeinc.github.io/api/cdn/font/ibmplex/mono/IBMPlexMono-Bold.ttf',
-      'img/watery back.png'
+      'img/watery back.png',
+      'background.css'
      ]);
    })
  );
@@ -63,7 +64,8 @@ if (navigator.onLine == true) {
       'Favicon/maskable_icon.png',
       'Favicon/android-chrome-512x512.png',
       'icon/imagineee back.svg',
-      'load.css'
+      'load.css',
+      'background.css'
     ]);
   })
 }
