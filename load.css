@@ -8,7 +8,7 @@ body {
     top: 0;
     z-index: 2;
     float: left;
-    background-color: rgba(56, 61, 161, 0.9);
+    background-color: rgba(0, 0, 128, 0.8);
     height: 100%;
     width: 100vw;
     color: white;
@@ -22,6 +22,7 @@ body {
     animation-duration: 1.5s;
     opacity: 0.0;
     visibility: hidden;
+    backdrop-filter: blur(5px);
 }
 #loadico {
     margin: 4px auto;
@@ -29,11 +30,12 @@ body {
     max-width: 60ch;
     margin-top: 30px;
     border: 5px solid transparent;
-    border-top: 16px double #2f2768;
+    border-top: 16px double #dc143cff;
     border-radius: 50%;
     width: 120px;
     height: 120px;
     animation: spin 0.5s linear infinite;
+    margin-top: 20vh;
 }
 @keyframes spin {
     0% { transform: rotate(0deg); }

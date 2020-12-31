@@ -1,14 +1,16 @@
 /* CSS HEX */
+:root {
 --crimson: #dc143cff;
 --navy-blue: #000080ff;
---patriarch: #800080ff;
+--purple: #5214c0;
 --spring-green: #00ff80ff;
 
 /* CSS HSL */
---crimson: hsla(348, 83%, 47%, 1);
---navy-blue: hsla(240, 100%, 25%, 1);
---patriarch: hsla(300, 100%, 25%, 1);
---spring-green: hsla(150, 100%, 50%, 1);
+--crimson-hsl: hsla(348, 83%, 47%, 1);
+--navy-blue-hsl: hsla(240, 100%, 25%, 1);
+--patriarch-hsl: hsla(300, 100%, 25%, 1);
+--spring-green-hsl: hsla(150, 100%, 50%, 1);
+}
 
 /* SCSS HEX */
 $crimson: #dc143cff;

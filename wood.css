@@ -7,19 +7,6 @@ body {
     padding: 2px;
     overflow-x: hidden;
 }
-::-webkit-scrollbar {
-    width: 6px;
-}
-::-webkit-scrollbar-track {
-    background-color: aqua; 
-}
-::-webkit-scrollbar-thumb {
-    background: white; 
-    border-radius: 3px;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: #ccd6d9;
-}
 #head {
     font-size: 50px;
 }
@@ -113,20 +100,6 @@ img:hover {
 footer {
     text-align: center;
     z-index: 1;
-}
-a {
-    text-decoration: none;
-    color: aqua;
-    border-radius: 5px;
-    padding: 5px;
-    transition-duration: .2s;
-}
-a:hover {
-    text-decoration: underline;
-    transform: translatey(-10px);
-}
-a > img {
-    text-decoration: none;
 }
 @media only screen and (max-width: 412px) {
     #projs > a > img {

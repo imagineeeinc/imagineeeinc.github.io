@@ -50,3 +50,17 @@ document.getElementById('menu-btn-box').onclick = function() {
         document.getElementById('menu-btn-burger').className = 'menu-btn-burger'
     }
 }
+window.addEventListener('DOMContentLoaded', () => {
+  let displayMode = 'browser tab';
+  if (navigator.standalone) {
+    displayMode = 'standalone';
+  }
+  if (window.matchMedia('(display-mode: standalone)').matches) {
+    displayMode = 'standalone';
+  }
+  // Log launch display mode to analytics
+  console.log('DISPLAY_MODE_LAUNCH:', displayMode);
+  if (displayMode == "standalone") {
+    document.getElementById("install-box").style.display = "none"
+  }
+});
