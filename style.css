@@ -27,7 +27,7 @@ body {
 #links {
     border-radius: 5px;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.4);
+    background-color: rgba(220, 20, 60, 0.4);
     display: inline-block;
 }
 #headcon {
