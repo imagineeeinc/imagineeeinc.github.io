@@ -6,6 +6,8 @@ self.addEventListener('install', function(e) {
    caches.open('imagineee').then(function(cache) {
      return cache.addAll([
       '',
+      'api/cdn/font/ibmplex/mono/font.css',
+      'api/cdn/font/ibmplex/mono/IBMPlexMono-Light.ttf',
       '404.html',
   'about.html',
   'js/cache-polyfill.js',
