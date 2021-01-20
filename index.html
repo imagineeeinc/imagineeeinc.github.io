@@ -50,10 +50,10 @@
         <meta name='apple-mobile-web-app-title' content='Imagineee'>
         <meta name='msapplication-TileImage' content='Favicon/favicon.ico'>
         <meta name='msapplication-TileColor' content='#003280'>
-        
-        <link rel="stylesheet" type="text/css" href="menu.css" >
+
+        <link rel="stylesheet" type="text/css" href="css/global.css" >
         <link rel="stylesheet" type="text/css" href="https://imagineeeinc.github.io/api/cdn/font/ibmplex/mono/font.css">
-        <link rel="stylesheet" type="text/css" href="style.css" >
+        <link rel="stylesheet" type="text/css" href="css/home.css" >
         <link rel="stylesheet" type="text/css" href="load.css" >
         <link rel="stylesheet" type="text/css" href="background.css" >
         <link rel="manifest" href="manifest.json">
@@ -64,7 +64,7 @@
         <div id="load">
             <div id="loadico"></div></div>
         </div>
-        <div id="menu-btn-box">
+        <div id="menu-btn-box" class="tilt">
             <div id="menu-btn-burger" class="menu-btn-burger"><!--<input type="checkbox" class="menu-btn">--></div>
         </div>
         <nav id="menus" class="hmenu">
@@ -74,112 +74,53 @@
         <h1 id="head"><a href="https://imagineeeinc.github.io/" style="color: white;">Imagineee</a></h1>
         <section id="links">
             <a href="https://github.com/imagineeeinc" target="_blank"><img src="icon/Github.png" width="30px"></a>
-             <a href="https://dev.to/imagineeeinc" target="_blank">
-                 <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" height="30" width="30">
-             </a>
-             <a href="https://stackoverflow.com/users/13628564/imagineeedev" target="_blank"><img src="icon/so.png" width="30px"></a>
-             </a>
-             <a href="https://imagineee.medium.com/" target="_blank"><img src="icon/medium.webp" width="30px"></a>
+            <a href="https://dev.to/imagineeeinc" target="_blank"><img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" height="30" width="30"></a>
+            <a href="https://stackoverflow.com/users/13628564/imagineeedev" target="_blank"><img src="icon/so.png" width="30px"></a>
+            <a href="https://imagineee.medium.com/" target="_blank"><img src="icon/medium.webp" width="30px"></a>
+            <a href="https://codepen.io/imagineeeinc" target="_blank"><img src="icon/codepen.png" width="30px"></a>
         </section>
-        <h2 style="margin-top: 80px;">
-            <span style="font-size: small;">small</span> developer, <span style="font-size: larger;">big</span> dreams
-        </h2>
+        <br><br>
+        <h4>
+            <span style="font-size: medium;">small</span> developer, <span style="font-size: xx-large;">big</span> dreams
+        </h4>
         </div>
         </div>
-        <div id="info" class="back">
-            <div id="info-inside">
-            <p><img src="icon/user.png" style="width: 80px; border-radius: 75px; border: 2px solid lightgrey;">
+        <div id="info">
+            <div id="info-inside" class="small-tilt">
+            <p><img src="icon/user.png" style="width: 80px; border-radius: 75px; border: 2px solid #000080;">
                 Hello, </p>
             <p style="margin-left: 90px;">
                 I am a small developer with big, ambitious dreams
+                <br><br>
+                <a href="about.html">Read More</a>
             </p>
-            <br>
             <p style="margin-left: 90px;">
                 <!-- Place this tag where you want the button to render. -->
                 <a class="github-button" href="https://github.com/imagineeeinc" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Follow @imagineeeinc on GitHub">Follow @imagineeeinc</a>
             </p>
-            <br>
-            <p style="margin-left: 90px;">
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=imagineeeinc&hide=ruby" id="langs">
-            </p>
             </div>
         </div>
-        <hr>
-        <div id="projects">
+        <div id="projects" class="small-tilt">
             <h1 style="text-align: center;">Projects</h1>
-            <a href="https://imagineeeinc.github.io/Wood-Note/">
-                <div id="proj">
-                    <h2>Wood Note</h2>
-                    <p>A light, simple notpad</p>
-                </div>
-            </a>
-            <a href="https://imagineeeinc.github.io/EtchTerm/">
-                <div id="proj">
-                    <h2>EtchTerm</h2>
+                <div id="proj" class="tilt">
+                    <h2><a href="https://imagineeeinc.github.io/EtchTerm/">EtchTerm</a></h2>
                     <p>Web based terminal</p>
                 </div>
-            </a>
-            <a href="https://imagineeeinc.github.io/pongjs/">
-                <div id="proj">
-                    <h2>Pongjs</h2>
-                    <p>100% JavaScritpt based game Pong and is my first game</p>
-                </div>
-            </a>
-            <a href="https://imagineeeinc.github.io/Table-Chat/">
-                <div id="proj">
-                    <h2>Table Chat</h2>
-                    <p>Node js Chat app</p>
-                </div>
-            </a>
-            <a href="https://imagineeeinc.github.io/Wood-WebBox/">
-                <div id="proj">
-                    <h2>Wood WebBox</h2>
-                    <p>A Html sandbox</p>
-                </div>
-            </a>
-            <a href="https://imagineeeinc.github.io/Wood-ToDo/">
-                <div id="proj">
-                    <h2>Wood ToDo</h2>
-                    <p>A light weight To Do app</p>
-                </div>
-            </a>
-            <a href="https://imagineeeinc.github.io/Wood-Clock/">
-                <div id="proj">
-                    <h2>Wood Clock</h2>
-                    <p>A light Desktop timepice</p>
-                </div>
-            </a>
-            <a href="https://imagineeeinc.github.io/power-notepad/">
-                <div id="proj">
-                    <h2>Power Notepad</h2>
+                <div id="proj" class="tilt">
+                    <h2><a href="https://imagineeeinc.github.io/power-notepad/">Power Notepad</a></h2>
                     <p>A more powerful notepad than the default one</p>
                 </div>
-            </a>
-            <a href="https://imagineeeinc.github.io/Airframe/">
-                <div id="proj">
-                    <h2>Airframe</h2>
+                <div id="proj" class="tilt">
+                    <h2><a href="https://imagineeeinc.github.io/Airframe/">Airframe</a></h2>
                     <p>Light weight JavaScript write less do more libary (wldm libary)</p>
                 </div>
-            </a>
-            <a href="https://cdpn.io/imagineeeinc/debug/abmKNwN/dXAqBaOYVzLk">
-                <div id="proj">
-                    <h2>Emoji Holder</h2>
-                    <p>A beautiful showcase of emojis</p>
-                </div>
-            </a>
-            <a href="https://imagineeeinc.github.io/PickQuick/picker/index.html">
-                <div id="proj">
-                    <h2>PickQuick | Colour picker</h2>
-                    <p>A simple, light weight colour picker</p>
-                </div>
-            </a>
-            <div style="text-align: center; font-size: 30px; ">
-                <a href="https://github.com/imagineeeinc?tab=repositories">Check out more projects</a>
+            <div style="text-align: center;">
+                <a href="projects.html">More Projects</a>
             </div>
         </div>
-        <hr>
-        <footer class="back">
-            <p><img src="icon/user.png" style="width: 35px; border-radius: 75px; border: 1px solid lightgrey;"></p>
+        <footer>
+            <div class='wave'></div>
+            <p><img src="icon/user.png" style="width: 35px; border-radius: 75px; border: 1px solid#000080;"></p>
             <p>©<script>document.write(new Date().getFullYear())</script></p>
             <a href="https://github.com/imagineeeinc">Imagineee</a>
         </footer>        
@@ -190,6 +131,8 @@
                        .then(function() { console.log("Service Worker Registered"); });
             }
         </script>
-        <script src="app.js"></script>
+        <script src="js/vanilla-tilt.min.js"></script>
+        <script src="js/global.js"></script>
+        <script src="js/home.js"></script>
     </body>
 </html>

@@ -1,0 +1,131 @@
+/*#2f2768*/
+#head {
+    font-size: 50px;
+}
+#header {
+    background-image: url('../img/background.png');
+    background-color:  #000080;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 0;
+
+    margin: -2px;
+    padding: 10px;
+    z-index: 1;
+}
+#headcon {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 128, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #000080;
+    box-shadow: 5px 5px 20px  rgba(0, 0, 128, 0.2);
+    min-width: 50%;
+    -webkit-user-select: none;
+}
+#content {
+    margin: 4px auto;
+    padding: 10px;
+    max-width: 60ch;
+    margin-top: 30px;
+    background:linear-gradient(135deg,  rgba(0, 0, 160, 0.5), rgba(0, 0, 50, 0.5));
+    backdrop-filter: blur(10px);
+    border: 1px solid #000080;
+    box-shadow: 5px 5px 20px  rgba(0, 0, 128, 0.2);
+}
+
+.proj-categories {
+    background-color: crimson;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: row;
+    align-items: center;
+    align-items: baseline;
+    margin: 5px;
+}
+.proj-categories > div {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 10px;
+    padding: 20px;
+    max-width: 50%;
+}
+.proj-categories > div:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#development {
+    background: linear-gradient(135deg, rgba(0, 255, 127, 0.7), rgba(0, 255, 0, 0.7));
+    border: 1px solid springgreen;
+}
+#development > div {
+    border: 1px solid springgreen;
+}
+#desktop-app {
+    background: linear-gradient(135deg, rgba(173, 216, 230, 0.7), rgba(0, 0, 255, 0.7));
+    border: 1px solid lightblue;
+}
+#desktop-app > div {
+    border: 1px solid lightblue;
+}
+#wood-app {
+    background: linear-gradient(135deg,  rgba(212, 118, 77, 0.7),  rgba(112, 18, 0, 0.7));
+    border: 1px solid brown;
+}
+#wood-app > div {
+    border: 1px solid brown;
+}
+#wood-app > div > h3 > a {
+    color: rgba(255, 80, 160);
+}
+#game {
+    background: linear-gradient(135deg,  rgba(240, 40, 80, 0.7), rgba(180, 0, 20, 0.7));
+    border: 1px solid crimson;
+}
+#game > div {
+    border: 1px solid crimson;
+}
+#game > div > h3 > a {
+    color: rgba(255, 80, 160);
+}
+#any-category {
+    background: linear-gradient(135deg,  rgba(255, 255, 126, 0.7), rgba(228, 224, 0, 0.7));
+    border: 1px solid  #ffff7e;
+}
+#any-category > div {
+    border: 1px solid #ffff7e;
+}
+#tools {
+    background: linear-gradient(135deg,  rgba(238, 130, 238, 0.7), rgba(128, 0, 128, 0.7));
+    border: 1px solid  violet;
+}
+#tools > div {
+    border: 1px solid violet;
+}
+#tools > div > h3 > a {
+    color: rgba(255, 120, 200);
+}
+#web-app {
+    background: linear-gradient(135deg,  rgba(0, 128, 128, 0.7), rgba(0, 0, 255, 0.7));
+    border: 1px solid teal;
+}
+#web-app > div {
+    border: 1px solid teal;
+}
+#web-app > div > h3 > a {
+    color: rgba(255, 80, 160);
+}
+#itch {
+    width: 165px;
+    height: 165px;
+}

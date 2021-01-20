@@ -1,9 +1,9 @@
 /* CSS HEX */
 :root {
---crimson: #dc143cff;
---navy-blue: #000080ff;
+--crimson: #dc143c;
+--navy-blue: #000080;
 --purple: #5214c0;
---spring-green: #00ff80ff;
+--spring-green: #00ff80;
 
 /* CSS HSL */
 --crimson-hsl: hsla(348, 83%, 47%, 1);
