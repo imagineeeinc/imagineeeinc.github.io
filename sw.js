@@ -106,6 +106,10 @@ self.addEventListener('install', function(e) {
 });
 
 if (navigator.onLine == true) {
+  caches.keys().then(function(delnames) {
+    for (let name of delnames)
+      caches.delete(name);
+  });
   caches.open('imagineee').then(function(cache) {
     return cache.addAll([
       '',
