@@ -3,10 +3,10 @@
     font-size: 50px;
 }
 #header {
-    background-image: url('../img/head_wall.png');
-    background-color:  #000080;
-    height: 800px;
-    background-position: center;
+    background-image: url('../imagineee\ -bg.png');
+    background-color:  transparent;
+    height: 98vh;
+    background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -23,7 +23,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    background: linear-gradient(135deg,  rgba(0, 0, 255, 0.2), rgba(0, 0, 20, 0.2));/*rgba(0, 0, 128, 0.05)*/
+    background: linear-gradient(135deg,  rgba(0, 0, 255, 0.5), rgba(0, 0, 20, 0.5));/*rgba(0, 0, 128, 0.05)*/
     backdrop-filter: blur(10px);
     border-radius: 10px;
     padding: 10px;
